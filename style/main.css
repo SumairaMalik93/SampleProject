@@ -366,3 +366,11 @@ hr {
     flex-shrink: 0;
     margin: 20px 0px;
 }
+
+.Company_Authority .Company_Auth_Img img {
+    border-radius: 50%;
+}
+
+.Company_Authority .Company_Auth_Img img {
+    padding: 20px;
+}
