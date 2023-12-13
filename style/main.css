@@ -48,7 +48,7 @@ nav ul li:hover {
 footer {
     max-width: 1250px;
     margin: auto;
-    padding: 10px;
+    padding: 60px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr
 }
@@ -332,6 +332,10 @@ hr {
     gap: 20px;
     padding: 30px 30px;
     margin: 20px 20px;
+    width: 1550px;
+    height: 680px;
+    flex-shrink: 0;
+    align-items: center;
 }
 
 .Company_Authority h2 {
@@ -372,5 +376,126 @@ hr {
 }
 
 .Company_Authority .Company_Auth_Img img {
-    padding: 20px;
+    padding: 10px;
+    height: 80%;
+    width: 80%;
+}
+
+.Our_Clients {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.Our_Clients h2 {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.Our_Clients span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.Our_Clients .Clients_Para {
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 1412px;
+}
+
+.Emergency_Note {
+    width: 1920px;
+    height: 300px;
+    flex-shrink: 0;
+    background: #058B8C;
+}
+
+.Emergency_Note .page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.Emergency_Note p {
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+    padding: 30px 30px;
+    margin: 20px 0px;
+}
+
+.services {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services .services-row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services .services-row-one p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.services .services-row-two h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.services .services-row-two span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.services .services-row-three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services .services-row-three img {
+    width: 341px;
+    height: 421px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    opacity: 0.6;
+    background: #1E1E1E;
 }
